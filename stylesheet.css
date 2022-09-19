@@ -3,7 +3,8 @@ ul{
     height: 5em;
     background: cornflowerblue;
     list-style-type: none;
-
+    width:0;
+    height:2em;
 }
 li{
     font-size: 1.5em;
@@ -152,3 +153,4 @@ h4{
 table{
     width: 100%;
 }
+
