@@ -3,7 +3,7 @@
     margin: 0px;
 }
 ul{
-    width: 100%;
+    width: 0em;
     height: 5em;
     background: cornflowerblue;
     list-style-type: none;
@@ -143,4 +143,16 @@ h4{
     font-size:2em;
     line-height: 2.5;
     font-family: 'Amiri Quran', serif;
+}
+.col1{
+    align-items: center;
+}
+.col2{
+    background:brown;
+}
+#tr2{
+    background-color:cornflowerblue;
+}
+table{
+    width: 100%;
 }
