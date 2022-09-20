@@ -18,39 +18,47 @@ video{
 .primer_clip{
     top: 2.2em;
     left: 3em;
+    border-radius: 1em;
 }
 .sundo_clip{
     top: 2.2em;
     left: 50em;
+    border-radius: 1em;
 }
 .tercer_clip{
     top: 34em;
     left: 3em; 
+    border-radius: 1em;
 }
 
 .cuarto_clip{
     top: 34em;
     left: 50em;
+    border-radius: 1em;
 }
 #reproducto{
     width: 37em;
     left: 2.1em;
     top: 2em;
+    border-radius: 1em;
 }
 #reproducto2{
     width: 28em;
     left: 7em;
     top: 2em;
+    border-radius: 1em;
 }
 #reproducto3{
     width: 37em;
     left: 2.1em;
     top: 2em;
+    border-radius: 1em;
 }
 #reproducto4{
     width: 37em;
     left: 2.1em;
     top: 2em;
+    border-radius: 1em;
 }
 
 #subtitulo1,#subtitulo2,#subtitulo3,#subtitulo4{
