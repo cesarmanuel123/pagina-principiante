@@ -1,0 +1,32 @@
+.container-clips{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:10.9em;
+    background: #fff;
+    padding: 1em;
+    align-content: flex-start;
+}
+.clip{
+    min-width: 300px;
+    margin: 10px;
+    padding: 10px;
+    outline: 2px solid black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.clip__video{
+    max-width: 300px; 
+    min-width: 250px;
+}
+#clip2{
+    max-width: 280px;
+    min-width: 220px;
+}
+.clip h2{
+    margin: 10px;
+}
+    
