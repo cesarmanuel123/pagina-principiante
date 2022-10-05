@@ -1,0 +1,186 @@
+/*Estructura de control-------------------------------------------------------------------------------------------------------------*/
+.text-container div{
+    width: 48%;
+    padding: 10px;
+}
+.text-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*Servicios----------------------------------------------------------------------------------------------------------------------------*/
+.conteiner-servicios{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.conteiner-servicios div{
+    padding: 15px;
+    background: #ddd;
+    text-align: center;
+}
+.conteiner-servicios div h1{
+    font-size: 1.7em;
+    margin: 10px;
+    padding: 5px;
+}
+.servicios-img2{
+    width: 740px;
+    height: 370px;
+}
+.conteiner-servicios div img,.conteiner-servicios div p{
+    padding: 5px;
+    margin: 5px;
+}
+.servicios-img1{
+    width: 370px;
+    height: 370px;
+    margin: auto;
+}
+.div1{
+    width: 33%;
+}
+.div2{
+    width: 63%;
+}
+
+/*Datos de emprsa---------------------------------------------------------------------------------------------------------------------------------*/
+.conteiner-datos-empresa{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.conteiner-datos-empresa div{
+    width: 31%;
+    background: #ddd;
+    padding: 10px;
+    margin-top: 30px;
+    min-width: 320px;
+    margin: 15px;
+    flex-grow: 1;
+}
+.conteiner-datos-empresa div img{
+    width: 370px;
+    height: 370px;
+    min-width: 300px;
+}
+.conteiner-datos-empresa div h1{
+    font-size: 1.7em;
+}
+.conteiner-datos-empresa div{
+    text-align: center;
+}
+.conteiner-datos-empresa div h1,.conteiner-servicios div img{
+    padding:10px;
+    margin: 10px;
+}
+/*seccion de Datos de instalacion, mantenimento--------------------------------------------------------------------------------------------*/
+.container-datos-servicios{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    background: #48e;
+    justify-content: space-around;
+    flex-grow: 1 ;
+}
+.container-datos-servicios div{
+    width: 49%;
+    min-width: 300px;
+}
+.container-datos-servicios .datos-forma div{
+    width: 100%;
+    padding: 10px;
+}
+.container-datos-servicios .container-imgen{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.container-datos-servicios .container-imgen img{
+    width: 570px;
+    text-align: center;
+    padding: 10px;
+    min-width: 250px;
+    margin-top: auto ;
+    margin-bottom: auto;
+}
+.container-datos-servicios .datos-forma div h1{
+    font-size: 1.6em;
+}
+
+/*Imgane con el slogan--------------------------------------------------------------------------------------------------------------------------*/
+.container-img-slo img{
+    width: 100%;
+}
+.container-img-slo {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right,rgba(13, 67, 67, 0.5),rgb(13, 67, 67, 0.5)), url(/evc1/imagenes/tecnologia.jfif) ;
+    background-size: cover;
+    background-position: center;
+}
+.container-text{
+    color: #fff;
+    text-align: center;
+}
+/*socios estrategicos-------------------------------------------------------------------------------------------------------------------------*/
+.conteiner-socios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+}
+.conteiner-socios div{
+    width: 31%;
+    padding: 10px;
+    min-width: 350px;
+    margin: 10px;
+    flex-grow: 1;
+}
+.conteiner-socios div .socios-img{
+    width: 100%;
+    height: 300px;
+    min-width: 300px;
+    border-radius: 1.5em;
+   
+}
+@media only screen and (max-width:1200px){
+    
+}
+
+@media only screen and (max-width:800px){
+    .text-container div{
+        width: 100%;
+    }
+    .container-{
+        display: block;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .container-telefono, .container-redes-sociales{
+        margin: 0;
+        color: #fff;
+    }
+    .container-telefono{
+        text-align: left;
+    }
+    .div1{
+        width: 100%;
+    }
+    .div2{
+        width: 100%;
+    }
+    .conteiner-servicios div{
+        margin-top: 10px;
+    }
+    .container-datos-servicios div{
+        width: 100%;
+   
+    }
+}
